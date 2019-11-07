@@ -36,11 +36,10 @@ are used to embed the information of the plugin that Plugin provider wrote. Sinc
 Host knows how to look for the plugin implementation that Plugin provider provides.
 
 #### Pros
-You can embed as many different plugin as you like.
+You can embed as many different plugin as you like in a single dynamic library.
 
 #### Cons
-The same plugin can't exist twice in a .so file. Same plugin is defined as having exactly same plugin interface. This will cause
-redefined symbol error.
+The same plugin can't exist twice in a .so file. In another word,  plugin interfaces must be different within a dynamic library, otherwise, it will cause redefined symbol error.
 
 #### Disclaimer
 I only spent a day to put this together. So it is pretty rough. The goal is to show how a simple C++ plugin work.
