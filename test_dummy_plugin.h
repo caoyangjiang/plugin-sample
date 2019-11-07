@@ -1,7 +1,8 @@
 #include "dummy_plugin_interface.h"
 
-class TestDummyPlugin : public DummyPluginInterface {
- public:
+class TestDummyPlugin : public DummyPluginInterface
+{
+public:
   TestDummyPlugin();
   ~TestDummyPlugin() override;
 

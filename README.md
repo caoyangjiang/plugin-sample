@@ -14,7 +14,7 @@ This sample code demonstrates how to create, load and use a plugin.
 
 To create executable (**Host** software)
 ~~~~~~~~~~~~~~~~
-g++ -std=c++17 test_host.cpp
+g++ -std=c++17 test_host.cpp -ldl
 ~~~~~~~~~~~~~~~~
 
 To create plugin (**Plugin Provider**)

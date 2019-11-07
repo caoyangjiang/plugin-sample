@@ -1,10 +1,12 @@
 
 #include <iostream>
+#include <memory>
 
 #include "dummy_plugin_interface.h"
 #include "plugin_load_helper.h"
 
-int main(int argc, char** argv) {
+int main(int argc, char** argv)
+{
   // HVR_PLUGIN_DEFINE(DummyPluginInterface);
   JCY_PLUGIN_LOADER_DEFINE(DummyPluginInterface);
 

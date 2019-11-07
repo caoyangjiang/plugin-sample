@@ -5,12 +5,13 @@
 
 #include "plugin_create_helper.h"
 
-class DummyPluginInterface {
- public:
+class DummyPluginInterface
+{
+public:
   virtual ~DummyPluginInterface() {}
   virtual int Load() = 0;
   virtual int Process() = 0;
   virtual void Unload() = 0;
 };
 
-#endif  // DUMMY_PLUGIN_INTERFACE_H_
+#endif // DUMMY_PLUGIN_INTERFACE_H_
