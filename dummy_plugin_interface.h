@@ -13,6 +13,4 @@ class DummyPluginInterface {
   virtual void Unload() = 0;
 };
 
-JCY_PLUGIN_DEFINE(DummyPluginInterface)
-
 #endif  // DUMMY_PLUGIN_INTERFACE_H_

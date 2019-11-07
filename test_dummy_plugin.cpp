@@ -5,6 +5,7 @@
 
 #include "plugin_create_helper.h"
 
+JCY_PLUGIN_DEFINE(DummyPluginInterface)
 JCY_PLUGIN_EMBED(TestDummyPlugin, DummyPluginInterface, "MyDummyPlugin",
                  "0.0.1")
 
